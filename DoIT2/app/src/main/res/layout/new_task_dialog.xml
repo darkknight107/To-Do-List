@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/newTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_new_task"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/datePicker"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="53dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/due_date"
+        android:inputType="date"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/timePicker"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/datePicker"
+        android:layout_alignParentEnd="true"
+
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/due_time"
+        android:inputType="time"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/addNewTask"
+        android:layout_width="342dp"
+        android:layout_height="63dp"
+        android:layout_alignStart="@+id/datePicker"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="109dp"
+        android:background="#A9A9A9"
+        android:text="@string/add_new_task"
+        android:textColor="@color/whiteColor"
+        android:textSize="14sp" />
+</android.widget.RelativeLayout>

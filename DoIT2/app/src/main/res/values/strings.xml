@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DoIT2</string>
+    <string name="doit">DoIT</string>
+    <string name="enter_new_task">Enter New Task</string>
+    <string name="due_date">Due Date</string>
+    <string name="due_time">Due Time</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="task_added">Task Added</string>
+    <string name="add_task_error">Please enter a Task</string>
+    <string name="enter_task">Enter Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_edited_message">Task Edited</string>
+    <string name="example">Example</string>
+    <string name="done">Done</string>
+    <string name="duetime">Due Time set as </string>
+    <string name="duedate">Due Date set as </string>
+</resources>
