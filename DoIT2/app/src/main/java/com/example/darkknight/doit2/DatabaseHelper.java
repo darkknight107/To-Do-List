@@ -72,23 +72,8 @@ import java.util.ArrayList;
             ContentValues values= new ContentValues();
             values.put(DB_COLUMN1, task);
             db.update(DB_TABLE, values, " task = \"" + oldTask + "\"", null);
-        }
-
-       /* public void insertDueDate(String dueDate){
-            SQLiteDatabase db = this.getWritableDatabase();
-            ContentValues values = new ContentValues();
-            values.put(DB_COLUMN2, dueDate);
-            db.insertWithOnConflict(DB_TABLE, null, values, SQLiteDatabase.CONFLICT_REPLACE);
             db.close();
         }
-
-        public void insertDueTime(String dueTime){
-            SQLiteDatabase db = this.getWritableDatabase();
-            ContentValues values = new ContentValues();
-            values.put(DB_COLUMN3, dueTime);
-            db.insertWithOnConflict(DB_TABLE, null, values, SQLiteDatabase.CONFLICT_REPLACE);
-            db.close();
-        }*/
 
     }
 
